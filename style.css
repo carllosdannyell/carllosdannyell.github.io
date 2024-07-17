@@ -1,32 +1,56 @@
 body {
     background-color: rgb(111, 228, 164);
-  }
+}
 
-  .meuNome,
-  .descricao {
+.meuNome,
+.descricao {
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
-  em {
+.descricao {
+    text-align: center;
+}
+
+.meuNome {
+    text-align: center;
+}
+
+#minha-foto {
+    float: left;
+    height: 230px;
+    padding: 10px;
+    background-color: red;
+}
+
+.image-container {
+    height: 250px;
+    position: relative;
+}
+
+em {
     color: rgb(67, 138, 83);
-  }
+}
 
-  .javascript {
+.javascript {
     font-size: 20px;
-  }
+}
 
-  .sql {
+.sql {
     font-size: 18px;
-  }
+}
 
-  .react {
+.react {
     font-size: 16px;
-  }
+}
 
-  .bootstrap {
+.bootstrap {
     font-size: 14px;
-  }
+}
 
-  .metoAgil {
+.metoAgil {
     font-size: 12px;
-  }
+}
+
+ul li:nth-child(odd) {
+    background-color: green;
+}
